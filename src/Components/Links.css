@@ -1,0 +1,10 @@
+.image>a{
+    height: 50px;
+    width: 50px;
+    transform: scale(0.9);
+    clip-path: circle();
+}
+.image>a:hover{
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
