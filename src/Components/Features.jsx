@@ -8,7 +8,7 @@ const Features = () => {
     
         <h1 className="text-center font-bold text-3xl mb-10">Features</h1>
         <div class="grid md:grid-cols-2 gap-5 border-white p-3 h-auto ">
-          <div class="w-auto flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-xl shadow-emerald-500/50 hover:bg-stone-900">
+          <div class="w-auto flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-sm shadow-blue-500 hover:bg-stone-900">
             <h1 className="text-2xl font-bold">Potential Growth</h1>
             <p>
               The 2CRO token has the potential for significant growth in the
@@ -18,7 +18,7 @@ const Features = () => {
               up its value over time.
             </p>
           </div>
-          <div class=" flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-xl shadow-lime-500/50 hover:bg-stone-900">
+          <div class=" flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-sm shadow-blue-500 hover:bg-stone-900 ">
             <h1 className="text-2xl font-bold">Education Purpose</h1>
             <p>
               The 2CRO token is designed to be used in an educational context.
@@ -29,7 +29,7 @@ const Features = () => {
               of blockchain technology.
             </p>
           </div>
-          <div class=" flex h-auto items-center  rounded-md bg-stone-800 text-white flex-col p-4 shadow-xl shadow-amber-500/50 hover:bg-stone-900">
+          <div class=" flex h-auto items-center  rounded-md bg-stone-800 text-white flex-col p-4 shadow-sm shadow-blue-300 hover:bg-stone-900">
             <h1 className="text-2xl font-bold">Limited Supply</h1>
             <p>
               One of the key features of the 2CRO token is its limited supply.
@@ -40,9 +40,9 @@ const Features = () => {
               investment opportunity.
             </p>
           </div>
-          <div class=" flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-xl shadow-orange-500/50 hover:bg-stone-900">
-            <h1 className="text-2xl font-bold">Blockchain Architecture</h1>
-            <p>
+          <div class=" flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-sm shadow-blue-900 hover:bg-stone-900">
+            <h1 className="text-2xl font-bold">Blockchain</h1>
+            <p >
               The 2CRO token is built on a secure and reliable blockchain
               architecture, which ensures that all transactions are recorded
               transparently and accurately. This blockchain technology provides
@@ -53,7 +53,7 @@ const Features = () => {
         </div>
 
         <div>
-          <div class=" flex h-auto items-center  rounded-md bg-zinc-800 flex-col p-4 shadow-xl shadow-pink-500/50 mt-6 hover:bg-stone-900">
+          <div class=" flex h-auto items-center  rounded-md bg-zinc-800 flex-col p-4 shadow-xl shadow-blue-500/50 mt-6 hover:bg-stone-900">
             <h1 className="text-2xl font-bold">Own App</h1>
             <p>
               The 2CRO token has its own app, where you can easily purchase and

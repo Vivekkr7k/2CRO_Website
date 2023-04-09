@@ -1,3 +1,10 @@
 div>h1{
     margin-bottom: 1rem;
+    color: rgb(78, 78, 255);
 }
+
+div>p{
+    color: rgb(253, 242, 242);
+}
+
+
