@@ -6,16 +6,24 @@ div>h1{
 div>p{
     color: rgb(253, 242, 242);
 }
+
+/* video{
+    height: 100px;
+    width: auto;
+} */
 .app_img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
   
   .app_img img {
     width: 250px;
     height: auto;
     margin: 5px;
+    border: 10px solid rgb(50, 51, 50);
+    border-radius: 40px;
     
   }
   
@@ -26,8 +34,8 @@ div>p{
     }
 
     .app_img img{
-        width:280px;
-        height:420px;
+        width:270px;
+        height:480px;
     }
   }
   

@@ -1,19 +1,18 @@
 import React from "react";
 import "./Features.css";
-import one from '../assets/app1.jpeg'
-import two from '../assets/app2.jpeg'
-import three from '../assets/app3.jpeg'
-import four from '../assets/app4.jpeg'
-import five from '../assets/app5.jpeg'
-import six from '../assets/app6.jpeg'
-import seven from '../assets/app7.jpeg'
-import eight from '../assets/app8.jpeg'
+import one from "../assets/a1.jpg";
+import two from "../assets/a2.jpg";
+import three from "../assets/a3.jpg";
+import four from "../assets/a4.jpg";
+import five from "../assets/a5.jpeg";
+import six from "../assets/a6.jpeg";
+import seven from "../assets/a7.jpeg";
+import eight from "../assets/a8.jpeg";
 
 const Features = () => {
   return (
     <>
       <div class=" p-2 mt-10 m-5 h-1/3 text-white bg-stone-900 rounded-xl">
-    
         <h1 className="text-center font-bold text-3xl mb-10">Features</h1>
         <div class="grid md:grid-cols-2 gap-5 border-white p-3 h-auto ">
           <div class="w-auto flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-sm shadow-blue-500 hover:bg-stone-900">
@@ -50,7 +49,7 @@ const Features = () => {
           </div>
           <div class=" flex h-auto items-center  rounded-md bg-stone-800 flex-col p-4 shadow-sm shadow-blue-900 hover:bg-stone-900">
             <h1 className="text-2xl font-bold">Blockchain</h1>
-            <p >
+            <p>
               The 2CRO token is built on a secure and reliable blockchain
               architecture, which ensures that all transactions are recorded
               transparently and accurately. This blockchain technology provides
@@ -69,20 +68,28 @@ const Features = () => {
               year or more, you can take advantage of its potential for growth
               and benefit from the long-term value appreciation.
             </p>
-            <div className= " app_img  w-auto flex h-auto  items-center justify-center">
+            <div className=" app_img  w-auto flex h-auto  items-center justify-center flc mt-4">
               <img src={one} alt="app_images" />
               <img src={two} alt="" />
               <img src={three} alt="" />
               <img src={four} alt="" />
-              <img src={five} alt="" />
-              <img src={six} alt="" />
-              <img src={seven} alt="" />
-              <img src={eight} alt="" />
             </div>
+
+            <div>
+              <div className="flex m-8 justify-center text-2xl font-medium">
+                <h1>Setup your wallet</h1>
+              </div>
+              <div className="app_img">
+                <img src={five} alt="" />
+                <img src={six} alt="" />
+                <img src={seven} alt="" />
+                <img src={eight} alt="" />
+              </div>
+            </div>
+           
           </div>
         </div>
-        </div>
-     
+      </div>
     </>
   );
 };
