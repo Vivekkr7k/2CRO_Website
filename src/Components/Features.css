@@ -6,5 +6,29 @@ div>h1{
 div>p{
     color: rgb(253, 242, 242);
 }
+.app_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .app_img img {
+    width: 250px;
+    height: auto;
+    margin: 5px;
+    
+  }
+  
+  @media screen and (max-width: 640px) {
+    .app_img {
+      flex-direction: column;
+      
+    }
 
+    .app_img img{
+        width:280px;
+        height:420px;
+    }
+  }
+  
 

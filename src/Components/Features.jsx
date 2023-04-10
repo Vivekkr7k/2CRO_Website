@@ -1,5 +1,13 @@
 import React from "react";
 import "./Features.css";
+import one from '../assets/app1.jpeg'
+import two from '../assets/app2.jpeg'
+import three from '../assets/app3.jpeg'
+import four from '../assets/app4.jpeg'
+import five from '../assets/app5.jpeg'
+import six from '../assets/app6.jpeg'
+import seven from '../assets/app7.jpeg'
+import eight from '../assets/app8.jpeg'
 
 const Features = () => {
   return (
@@ -61,6 +69,16 @@ const Features = () => {
               year or more, you can take advantage of its potential for growth
               and benefit from the long-term value appreciation.
             </p>
+            <div className= " app_img  w-auto flex h-auto  items-center justify-center">
+              <img src={one} alt="app_images" />
+              <img src={two} alt="" />
+              <img src={three} alt="" />
+              <img src={four} alt="" />
+              <img src={five} alt="" />
+              <img src={six} alt="" />
+              <img src={seven} alt="" />
+              <img src={eight} alt="" />
+            </div>
           </div>
         </div>
         </div>
